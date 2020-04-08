@@ -10,7 +10,8 @@ This repository houses open datasets created by Jataware for research related to
 	- [County NPI Data](#county-npi-data)
 	- [City NPI Data](#city-npi-data)
 - [Healthcare Capacity Data](#healthcare-capacity-data)
-	- [State Healthcare Capacity Data](#state-healthcare-capacity-data)
+	- [State Measures](#state-measures)
+	- [Global Measures](#global-measures)
 
 ## NPI Data
 [Nonpharmaceutical Interventions](https://www.cdc.gov/nonpharmaceutical-interventions/index.html), or NPIs, are policy actions taken by communities to mitigate the spread of diseases such as COVID-19. These types of interventions include implementing stay at home orders, school closures, and social distancing recommendation, etc.
@@ -60,5 +61,8 @@ We can loosely associate these metrics with a geography based on the news articl
 | ppe         | ppe                           | 1,000 ppe                           |
 | ppe         | personal protective equipment | 1,000 personal protective equipment |
 
-### State Healthcare Capacity Data
+### State Measures
 State-level healthcare capacity data can be found in `State-Capacity-Measures.csv`.
+
+### Global Measures
+Country-level healthcare capacity data can be found in `Global-Capacity-Measures.csv`.
