@@ -9,6 +9,8 @@ This repository houses open datasets created by Jataware for research related to
 	- [NPI Taxonomy](#npi-taxonomy)
 	- [County NPI Data](#county-npi-data)
 	- [City NPI Data](#city-npi-data)
+	- [World NPI Data](#world-npi-data)
+	
 - [Healthcare Capacity Data](#healthcare-capacity-data)
 	- [State Measures](#state-measures)
 	- [Global Measures](#global-measures)
@@ -34,6 +36,9 @@ U.S. County level NPI data is available in `County-NPIs.csv`.
 
 ### City NPI Data
 U.S. city level NPI data is available in `City-NPIs.csv`.
+
+### World NPI Data
+Country level NPI data is available in `World-NPIs.csv`.
 
 ## Healthcare Capacity Data
 We have also collected data on healthcare system capacity. To accomplish this, we've relied on information extraction from open source news articles. We have attempted to automatically extract the following:
