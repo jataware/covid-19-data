@@ -20,6 +20,8 @@ This repository houses open datasets created by Jataware for research related to
 
 We have an ongoing project to scan the internet for news articles the feature country, state, county, and city level reporting on NPIs. We then categorize the NPI that the article is most likely describing in order to generate an estimate for when various NPIs were implemented and where.
 
+> To facilitate usage in spreadsheet tools like Excel, the underlying article text is not stored in the `.csv` files, but is available in the `.jsonl` ([JSON lines](http://jsonlines.org/)) files.
+
 ### NPI Taxonomy
 
 * `state_of_emergency`: the geography has implemented a state of emergency
