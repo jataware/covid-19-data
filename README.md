@@ -39,6 +39,11 @@ U.S. County level NPI data is available in `County-NPIs.csv`.
 ### City NPI Data
 U.S. city level NPI data is available in `City-NPIs.csv`.
 
+### CDC CRI City NPI Data
+We have a special collection focused on the [CDC's City Readiness Initiative Cities](https://www.cdc.gov/cpr/readiness/mcm/cri.html). This dataset, `CDC-CRI-City-NPIs.jsonl`, focuses on these cities. It includes additional fields that capture sentences related to easing of NPIs. Fields prepended with `RGX_` indicate the usage of regular expression based filters for quantities and terms. Quantities (such as numbers of tests) are returned as array of quantity extractions. Terms, such as "social distancing" are counted and returned as frequency counts. 
+
+Extraction fields that are *not* prepended with `RGX_` are [Odinson](https://github.com/lum-ai/odinson) based extractions. Odinson is used to perform a set of rule based extractions that seeks to identify relevant syntactic patterns. When the pattern is identified, the relevant sentences are returned for additional human verification and validation.
+
 ### World NPI Data
 Country level NPI data is available in `World-NPIs.csv`.
 
